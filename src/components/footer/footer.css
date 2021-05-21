@@ -1,0 +1,130 @@
+.footer-container {
+    width: 100%;
+    height: 35vh;
+    background-color: #F5E5D9;
+    margin-top: 200px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-wrapper {
+  width: 80%;
+  max-width: 1440px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-menu1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu1 h2 {
+  margin-bottom: 20px;
+}
+
+.footer-submenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.footer-submenu a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-menu2 {
+  width: 40%;
+}
+
+.footer-menu2 h2 {
+  margin-bottom: 20px;
+}
+
+.footer-menu2 input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #272727;
+  margin-top: 35px;
+  padding: 5px;
+}
+
+.footer-menu2 input:focus {
+  box-shadow: 0;
+  outline: 0;
+}
+
+.footer-menu3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu3 h2 {
+  margin-bottom: 20px;
+}
+
+.footer-socials {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fa-paper-plane {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    margin-top: 20px;
+  }
+
+  .footer-wrapper {
+    width: 90%;
+  }
+
+  .footer-submenu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-menu2 input {
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #272727;
+    margin-top: 35px;
+    padding: 5px;
+  }
+
+  .footer-socials {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .footer-menu2 h2 {
+    margin-bottom: 80px;
+  }
+
+  .footer-menu3 h2 {
+    margin-bottom: 80px;
+  }
+}
